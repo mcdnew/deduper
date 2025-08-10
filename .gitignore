@@ -1,0 +1,49 @@
+# ---------------------------
+# Dedupe project gitignore
+# ---------------------------
+
+# Cache file for deduper
+.dedupe_cache.json
+
+# Generated reports
+report.json
+report.csv
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+env/
+.venv/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+
+# Editor folders/settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Backup files
+*~
+*.bak
+*.swp
+*.swo
+
